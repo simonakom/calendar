@@ -3,7 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items:center;
-    background-color: rgba(128, 128, 128, 0.133);
+    background-color: rgba(128, 128, 128, 0.027);
+    font-family:sans-serif;
 }
 .calendar_title {
     text-align: center;
@@ -17,8 +18,8 @@ body {
     font-weight: 300;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 25px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 .red {
     color: red;
@@ -37,7 +38,7 @@ body {
 .cell_frame {
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    padding: 20px 10px 20px 10px;
+    padding: 10px 10px;
 }
 .inner_table {
     width: 100%;
@@ -47,7 +48,7 @@ body {
     font-weight: 600;
 }
 th.month {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 @media screen and (max-width: 768px) {
